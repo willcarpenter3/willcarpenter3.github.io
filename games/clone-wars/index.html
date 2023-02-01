@@ -120,12 +120,6 @@ Clone Wars | Will&#39;s Portfolio
 <body class="light">
   
   
-<script>
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
 
 
 
@@ -261,20 +255,6 @@ Clone Wars | Will&#39;s Portfolio
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div class="sticky-sidebar">
           
-          <aside class="toc">
-              <h5>
-                Table Of Contents
-              </h5>
-              <div class="toc-content">
-                <nav id="TableOfContents">
-  <ul>
-    <li><a href="#description">Description</a></li>
-    <li><a href="#things-i-did">Things I Did</a></li>
-  </ul>
-</nav>
-              </div>
-          </aside>
-          
 
           
           <aside class="tags">
@@ -405,14 +385,10 @@ Clone Wars | Will&#39;s Portfolio
     </div>
 </div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 
 
