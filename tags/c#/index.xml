@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on Will&#39;s Portfolio</title>
+    <link>http://example.org/tags/c#/</link>
+    <description>Recent content in C# on Will&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nekomancer</title>
+      <link>http://example.org/games/nekomancer/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/games/nekomancer/</guid>
+      <description>&lt;p&gt;A 3D platformer made in Unity about using different magical cat abilities.&lt;/p&gt;
+&lt;p&gt;My main role in this project was as a producer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Build-A-Bot</title>
+      <link>http://example.org/games/build-a-bot/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/games/build-a-bot/</guid>
+      <description>&lt;p&gt;A 2D side scrolling rogue-like made in Unity. You play as a computer named BIPY who has to upgrade himself by collecting and equipping different computer parts.&lt;/p&gt;
+&lt;p&gt;My main role in this project was as an AI programmer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Satelligner</title>
+      <link>http://example.org/games/satelligner/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/games/satelligner/</guid>
+      <description>&lt;p&gt;A 2.5D game made in Unity for a game jam with the theme “Transmission.” The game is about moving and reflecting lasers to solve puzzles.&lt;/p&gt;
+&lt;p&gt;This was a solo project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clone Wars</title>
+      <link>http://example.org/games/clone-wars/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/games/clone-wars/</guid>
+      <description>&lt;p&gt;This is an Augmented Reality (AR) game for Android phones using Unit. The concept is that you can design and play a Clone Wars themed tower defense level on any flat surface!&lt;/p&gt;
+&lt;p&gt;My main role in this project was as a general Gameplay Programmer.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

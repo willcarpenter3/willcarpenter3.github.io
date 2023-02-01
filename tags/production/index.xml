@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Production on Will&#39;s Portfolio</title>
+    <link>http://example.org/tags/production/</link>
+    <description>Recent content in Production on Will&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/production/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nekomancer</title>
+      <link>http://example.org/games/nekomancer/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/games/nekomancer/</guid>
+      <description>&lt;p&gt;A 3D platformer made in Unity about using different magical cat abilities.&lt;/p&gt;
+&lt;p&gt;My main role in this project was as a producer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Satelligner</title>
+      <link>http://example.org/games/satelligner/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/games/satelligner/</guid>
+      <description>&lt;p&gt;A 2.5D game made in Unity for a game jam with the theme “Transmission.” The game is about moving and reflecting lasers to solve puzzles.&lt;/p&gt;
+&lt;p&gt;This was a solo project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
