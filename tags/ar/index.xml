@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AR on Will&#39;s Portfolio</title>
-    <link>http://example.org/tags/ar/</link>
+    <link>https://willcarpenter3.github.io/tags/ar/</link>
     <description>Recent content in AR on Will&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://willcarpenter3.github.io/tags/ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clone Wars</title>
-      <link>http://example.org/games/clone-wars/</link>
+      <link>https://willcarpenter3.github.io/games/clone-wars/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/games/clone-wars/</guid>
-      <description>&lt;p&gt;This is an Augmented Reality (AR) game for Android phones using Unit. The concept is that you can design and play a Clone Wars themed tower defense level on any flat surface!&lt;/p&gt;
+      <guid>https://willcarpenter3.github.io/games/clone-wars/</guid>
+      <description>&lt;p&gt;This is an Augmented Reality (AR) game for Android phones using Unity. The concept is that you can design and play a Clone Wars themed tower defense level on any flat surface!&lt;/p&gt;
 &lt;p&gt;My main role in this project was as a general Gameplay Programmer.&lt;/p&gt;
 </description>
     </item>

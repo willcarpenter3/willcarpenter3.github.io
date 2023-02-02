@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Build-A-Bot on Will&#39;s Portfolio</title>
-    <link>http://example.org/games/build-a-bot/</link>
+    <link>https://willcarpenter3.github.io/games/build-a-bot/</link>
     <description>Recent content in Build-A-Bot on Will&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/games/build-a-bot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://willcarpenter3.github.io/games/build-a-bot/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

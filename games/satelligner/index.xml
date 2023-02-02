@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Satelligner on Will&#39;s Portfolio</title>
-    <link>http://example.org/games/satelligner/</link>
+    <link>https://willcarpenter3.github.io/games/satelligner/</link>
     <description>Recent content in Satelligner on Will&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/games/satelligner/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://willcarpenter3.github.io/games/satelligner/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
