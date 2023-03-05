@@ -579,9 +579,17 @@ section {
     scroll-margin-top: 2rem
 }
 
+.featured-video iframe {
+    height: 500px;
+}
+
 @media screen and (max-width: 400px) {
     #hero {
         min-height: 120vh;
+    }
+
+    .featured-video iframe {
+        height: 200px;
     }
 }
   
