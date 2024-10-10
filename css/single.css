@@ -33,6 +33,10 @@
     background-color: var(--secondary-color);
 }
 
+#single .page-content img {
+    max-width: 100%;
+}
+
 #single .page-content a {
     display: inline-block;
     text-decoration: underline;
