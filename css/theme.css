@@ -14,6 +14,10 @@
     --secondary-color: var(--secondary-color-dark);
 }
 
+body, #content {
+    overflow-x: hidden;
+}
+
 .text-secondary {
     color: var(--text-secondary-color) !important;
 }
