@@ -1,0 +1,95 @@
+/* Index CSS */
+section#hero .image img:hover {
+    cursor: auto;
+}
+
+section#hero .image.animate img:hover {
+    box-shadow: none;
+    filter: none;
+    cursor: auto;
+}
+
+section {
+    scroll-margin-top: 2rem
+}
+
+.featured-video iframe {
+    height: 500px;
+}
+
+@media screen and (max-width: 400px) {
+    #hero {
+        min-height: 120vh;
+    }
+
+    .featured-video iframe {
+        height: 200px;
+    }
+}
+  
+
+/* List CSS */
+#list-page .card > .card-header iframe {
+    min-height: 20rem;
+}
+
+div#list-page.container {
+    padding-top: 5rem !important;
+}
+
+#list-page .card > .card-header .card-img-top {
+    height: auto !important;
+}
+
+/* Single CSS */
+#single {
+    padding: 10rem 0;
+}
+
+#single .featured-video {
+    min-height: 30rem;
+}
+
+#single .featured-video iframe {
+    height: 30rem;
+}
+
+#single .page-content img {
+    max-width: 100%;
+}
+
+#single .page-content a {
+    text-decoration: underline;
+}
+
+#single aside {
+    scroll-margin-top: 2rem
+}
+
+#single .sticky-sidebar {
+    top: 10rem;
+}
+
+/* Theme CSS */
+div#content {
+    min-height: 100vh;
+}
+
+.video-shortcode {
+    max-width: 100%;
+    height: auto;
+}
+  
+body, #content {
+    overflow-x: hidden;
+}
+
+/* Header CSS */
+@media (max-width: 1200px) {
+  
+    header, .navbar {
+        position: sticky;
+        top: 0;
+    }
+
+}

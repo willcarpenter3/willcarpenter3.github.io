@@ -245,6 +245,8 @@ params:
       - job: "Frontend Adobe Commerce Engineer"
         company: "Aeroflow Health"
         companyUrl: "https://aeroflowhealth.com/"
+        info:
+          enable: false
         date: "July 2024 - Present"
         content: |-
           At Aeroflow I work with a small team of developers on the Mom and Baby project, utilizing tools in the Adobe Commerce framework such as JQuery, KnockoutJS, LESS, XML, and PHP. <br>
@@ -254,6 +256,8 @@ params:
       - job: "Software Engineer"
         company: "Kadro"
         companyUrl: "https://kadro.com/"
+        info:
+          enable: false
         date: "Aug 2019 - June 2024"
         content: |-
           Started as a co-op in August 2019 and worked on/off rotations until August 2021, then transitioned to full time after my graduation in May 2022.<br>
@@ -263,12 +267,16 @@ params:
       - job: "IT Intern"
         company: "DO Supply Inc"
         companyUrl: "https://www.dosupply.com/"
+        info:
+          enable: false
         date: "May 2019 - Jul 2019"
         content: "Worked with a small team of developers to create and improve company web resources, developed projects on the front end using HTML and CSS, and utilized AWS, PHP, MySQL, and Laravel in various back end projects."
 
       - job: "Resident Advisor"
         company: "NC State University Housing"
         companyUrl: "https://housing.dasa.ncsu.edu/"
+        info:
+          enable: false
         date: "Aug 2018 - May 2019"
         content: "Oversaw and performed monthly one-on-one check-ins with 25-30 residents, worked with a team of 21 to coordinate events and other housing functions, performed building rounds and responded to incidents on bi-weekly duty nights."
 

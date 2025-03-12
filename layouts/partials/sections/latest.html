@@ -1,0 +1,48 @@
+{{ if .Site.Params.latest.enable | default false }}
+<section id="projects" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.latest.title | default "Projects" }}</h3>
+        <div class="row justify-content-center px-3 px-md-5">
+            {{ range .Site.Params.latest.items }}
+            <div class="col-lg-12 my-3">
+                <div class="card my-3 h-100" title="{{ .title }}">
+                    <div class="card-head featured-video">
+                        {{ .linkedVideo | markdownify }}
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            {{ range .badges }}
+                            <span class="badge badge-secondary">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        <h4 class="card-title bg-transparent mt-1">{{ .title }}</h4>
+                        <div class="card-text bg-transparent secondary-font">
+                            {{ .content | markdownify }}
+                        </div>
+                    </div>
+                    
+                    {{ if or (.links) (.featured) }}
+                    <div class="card-footer py-3">
+                        {{ range .links }}
+                        <span class="m-1 mx-2">
+                            <a href="{{ .url }}" target="_blank">
+                                <i class="{{ .icon }}"></i>
+                            </a>
+                        </span>
+                        {{ end }}
+                        {{ if .featured }}
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="{{ .featured.link }}">
+                                {{ .featured.name }}
+                            </a>
+                        </span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
