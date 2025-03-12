@@ -1,0 +1,325 @@
+baseURL: https://willcarpenter3.github.io/
+languageCode: en-us
+title: Will's Portfolio
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Devlogs
+#       title: Devlog Posts
+#       url: /devlogs
+#       weight: 1
+#Dropdown menu
+# - identifier: dropdown
+#   title: Example dropdown menu
+#   name: Dropdown
+#   weight: 3
+# - identifier: dropdown1
+#   title: example dropdown 1
+#   name: example 1
+#   url: /#
+#   parent: dropdown
+#   weight: 1
+# - identifier: dropdown2
+#   title: example dropdown 2
+#   name: example 2
+#   url: /#
+#   parent: dropdown
+#   weight: 2
+
+params:
+  title: "Will's Portfolio"
+  description: Web developer by trade, game developer by passion, human being by coffee.
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/trash_wizard.webp"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandName: " " # Brand name for the brand | default is the title variable
+    disableSearch: true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Will"
+    subtitle: "I make games"
+    content: "Web developer by trade, game developer by passion, human being by coffee."
+    image: "/images/profile_pic_square.png"
+    background: "/images/webb.png"
+    button:
+      enable: true
+      name: "Resume"
+      url: "/docs/official-resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/will-carpenter-ncsu/"
+        - icon: fab fa-itch-io
+          url: https://will-carpenter.itch.io/
+        - icon: fab fa-github
+          url: https://github.com/willcarpenter3
+
+  latest:
+    enable: true
+    title: "The Latest and Greatest"
+
+    items:
+      - title: Transfusion
+        content: |-
+          An Unreal VR Game with fast-paced arena combat and blood magic!
+
+          This project is in active development. I'm acting as the lead producer and a gameplay programmer, working with a small team of other hobbyists.
+
+          The game will be launching on Steam in December 2024, wishlist it now to get notified when it launches!
+        linkedVideo: |-
+          <iframe width="100%" src="https://www.youtube.com/embed/YW4FtB3zcN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        badges:
+          - "Unreal Engine"
+          - "Blueprints"
+          - "VR"
+          - "Active Development"
+        links:
+          - icon: fab fa-steam
+            url: https://store.steampowered.com/app/2397910/Transfusion/
+          - icon: fab fa-itch-io
+            url: https://udayansenapati.itch.io/transfusion
+          - icon: fab fa-github
+            url: https://github.com/usenapati/Transfusion_VR
+
+  projects:
+    #idea - split this into 3 yaml configs: latest (big), featured (set of 4), and other (slider)
+    enable: true
+    title: "Featured Projects"
+
+    items:
+      - title: CLONE WARS Tabletop Tower Defense
+        content: |-
+          This is an Augmented Reality (AR) game for Android phones using Unity. The concept is that you can design and play a Clone Wars themed tower defense level on any flat surface!
+
+          I was one of the lead programmers for this game.
+        image: /images/projects/Clone Wars.jpg
+        featured:
+          name: Read More
+          link: /games/clone-wars
+        badges:
+          - "Unity"
+          - "C#"
+          - "AR"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/willcarpenter3/ARTowerDefense
+          - icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.TTDDevs.CloneWARsTTD&pli=1
+
+      - title: Build-A-Bot
+        content: |-
+          A 2D side scrolling rogue-like made in Unity. You play as a computer named BIPY who has to upgrade himself by collecting and equipping different computer parts.
+
+          My main role in this project was as an AI programmer.
+        image: /images/projects/build-a-bot.png
+        featured:
+          name: Read More
+          link: /games/build-a-bot
+        badges:
+          - "Unity"
+          - "C#"
+          - "2D"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/justinorringer/Build-A-Bot
+
+      - title: Nekomancer
+        content: |-
+          A 3D platformer made in Unity about using different magical cat abilities.
+
+          My main role in this project was as a producer.
+        image: /images/projects/neko-image-1.png
+        featured:
+          name: Read More
+          link: /games/nekomancer/
+        badges:
+          - "Unity"
+          - "C#"
+          - "3D"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/phillipsalbright/Nekomancer
+          - icon: fab fa-itch-io
+            url: https://phillips-albright.itch.io/nekomancer
+
+      - title: Satelligner
+        content: |-
+          A 2.5D game made in Unity for a game jam with the theme "Transmission." The game is about moving and reflecting lasers to solve puzzles.
+
+          This was a solo project.
+        image: /images/projects/satelligner.png
+        featured:
+          name: Read More
+          link: /games/satelligner
+        badges:
+          - "Unity"
+          - "C#"
+        links:
+          - icon: fab fa-itch-io
+            url: https://will-carpenter.itch.io/satelligner
+
+  # Experience
+  experience:
+    enable: true
+    title: "Work Experience"
+    items:
+      - job: "Frontend Adobe Commerce Engineer"
+        company: "Aeroflow Health"
+        companyUrl: "https://aeroflowhealth.com/"
+        date: "July 2024 - Present"
+        content: |-
+          At Aeroflow I work with a small team of developers on the Mom and Baby project, utilizing tools in the Adobe Commerce framework such as JQuery, KnockoutJS, LESS, XML, and PHP. <br>
+
+          As a team we work to upgrade existing systems in our Adobe Commerce project, as well as deliver new features for the business to maintain a competitive edge.
+
+      - job: "Software Engineer"
+        company: "Kadro"
+        companyUrl: "https://kadro.com/"
+        date: "Aug 2019 - June 2024"
+        content: |-
+          Started as a co-op in August 2019 and worked on/off rotations until August 2021, then transitioned to full time after my graduation in May 2022.<br>
+
+          My responsibilities included writing PHP and Javascript code to extend Magento framework functionality, utilizing JIRA to assess task requirements, debugging issues with new and legacy projects, mentoring less senior co-workers, and overall being a team player in order to get meaningful results for our clients.
+
+      - job: "IT Intern"
+        company: "DO Supply Inc"
+        companyUrl: "https://www.dosupply.com/"
+        date: "May 2019 - Jul 2019"
+        content: "Worked with a small team of developers to create and improve company web resources, developed projects on the front end using HTML and CSS, and utilized AWS, PHP, MySQL, and Laravel in various back end projects."
+
+      - job: "Resident Advisor"
+        company: "NC State University Housing"
+        companyUrl: "https://housing.dasa.ncsu.edu/"
+        date: "Aug 2018 - May 2019"
+        content: "Oversaw and performed monthly one-on-one check-ins with 25-30 residents, worked with a team of 21 to coordinate events and other housing functions, performed building rounds and responded to incidents on bi-weekly duty nights."
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/pineapple.jpg"
+    content: |-
+      I'm a software engineer with a huge passion for games. Currently I'm working in the web development field and develop games as a hobby on the side. <br><br>
+      Please feel free to check out any of my projects that interest you, and if you do - don't hesitate to reach out and let me know what you think! I believe in constantly trying to better myself and my craft, and that's not possible without listening to what others have to say. <br><br>
+    skills:
+      enable: true
+      title: "Game development is a huge cross-disciplinary field and I've messed with a lot of fun tools, but here are some of the ones that I use most often:"
+      items:
+        - "Unity"
+        - "C#"
+        - "Unreal Engine 4/5"
+        - "UE4/5 Blueprints"
+        - "C++"
+        - "Javascript"
+
+  #Contact
+  contact:
+    enable: true
+    title: "Reach Out"
+    content: If anything here has interested you, shoot me an email - I'd love to connect!
+    email: willcarpenter3673@gmail.com
+    btnName: Email Me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "devlogs"
+      count: 3
+      title: Latest Devlogs
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      itch: itch.io
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
