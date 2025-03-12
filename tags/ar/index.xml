@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AR on Will&#39;s Portfolio</title>
-    <link>https://willcarpenter3.github.io/tags/ar/</link>
-    <description>Recent content in AR on Will&#39;s Portfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://willcarpenter3.github.io/tags/ar/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Clone Wars</title>
-      <link>https://willcarpenter3.github.io/games/clone-wars/</link>
-      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://willcarpenter3.github.io/games/clone-wars/</guid>
-      <description>&lt;p&gt;This is an Augmented Reality (AR) game for Android phones using Unity. The concept is that you can design and play a Clone Wars themed tower defense level on any flat surface!&lt;/p&gt;
-&lt;p&gt;My main role in this project was as a general Gameplay Programmer.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AR on Will's Portfolio</title><link>https://willcarpenter3.github.io/tags/ar/</link><description>Recent content in AR on Will's Portfolio</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://willcarpenter3.github.io/tags/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>Clone Wars</title><link>https://willcarpenter3.github.io/games/clone-wars/</link><pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate><guid>https://willcarpenter3.github.io/games/clone-wars/</guid><description>&lt;p>This is an Augmented Reality (AR) game for Android phones using Unity. The concept is that you can design and play a Clone Wars themed tower defense level on any flat surface!&lt;/p>
+&lt;p>My main role in this project was as a general Gameplay Programmer.&lt;/p></description></item></channel></rss>
