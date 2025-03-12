@@ -34,7 +34,7 @@ I had actually built up a small prototype that I refer to as the “Morshu Proto
 
 A video of the prototype is attached below.
 
-{{< video src="/videos/morshu-demo.mp4" type="video/mp4" preload="auto" >}}
+{{< video src="/videos/morshu-demo.mp4" >}}
 
 The initial timeline I had proposed was to be done by the end of the following semester, around May 2022.
 
