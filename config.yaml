@@ -142,11 +142,13 @@ params:
         content: |-
           An Unreal VR Game with fast-paced arena combat and blood magic!
 
-          This project is in active development. I'm acting as the lead producer and a gameplay programmer, working with a small team of other hobbyists.
+          Out in Early Access now!
+          
+          I'm acting as the game director and a gameplay programmer, working with a small team of other hobbyists.
 
-          The game will be launching on Steam in December 2024, wishlist it now to get notified when it launches!
+          Keep an eye out for future updates, like new weapons, different enemies, and a story mode!
         linkedVideo: |-
-          <iframe width="100%" src="https://www.youtube.com/embed/YW4FtB3zcN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="100%" src="https://www.youtube.com/embed/FsUvYD-ar3U?si=JUzPo3-iRt727ndh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         badges:
           - "Unreal Engine"
           - "Blueprints"
@@ -158,7 +160,7 @@ params:
           - icon: fab fa-itch-io
             url: https://udayansenapati.itch.io/transfusion
           - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+            url: https://github.com/willcarpenter3/TransfusionVR_UE5
 
   projects:
     #idea - split this into 3 yaml configs: latest (big), featured (set of 4), and other (slider)
@@ -287,7 +289,7 @@ params:
     image: "/images/pineapple.jpg"
     content: |-
       I'm a software engineer with a huge passion for games. Currently I'm working in the web development field and develop games as a hobby on the side. <br><br>
-      Please feel free to check out any of my projects that interest you, and if you do - don't hesitate to reach out and let me know what you think! I believe in constantly trying to better myself and my craft, and that's not possible without listening to what others have to say. <br><br>
+      Please feel free to check out any of my projects that interest you, and if you do - don't hesitate to reach out and let me know what you think! <br><br>
     skills:
       enable: true
       title: "Game development is a huge cross-disciplinary field and I've messed with a lot of fun tools, but here are some of the ones that I use most often:"
@@ -306,11 +308,6 @@ params:
     content: If anything here has interested you, shoot me an email - I'd love to connect!
     email: willcarpenter3673@gmail.com
     btnName: Email Me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
