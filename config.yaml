@@ -140,15 +140,17 @@ params:
     items:
       - title: Transfusion
         content: |-
-          An Unreal VR Game with fast-paced arena combat and blood magic!
+          An Unreal PC VR Game with fast-paced arena combat and blood magic.
 
-          Out in Early Access now!
+          Slice enemies into tiny pieces and wield the power of blood magic to survive another day in this fast-paced VR hack and slash! 
+
+          Out now on Steam!
           
-          I'm acting as the game director and a gameplay programmer, working with a small team of other hobbyists.
-
-          Keep an eye out for future updates, like new weapons, different enemies, and a story mode!
+          Developed with a team of five other hobbyists, my contributions included project management, gameplay programming, UI design, light 3D modeling, and sound design.
+          
+          
         linkedVideo: |-
-          <iframe width="100%" src="https://www.youtube.com/embed/FsUvYD-ar3U?si=JUzPo3-iRt727ndh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="100%" src="https://www.youtube.com/embed/hhfpeBEpjlc?si=TMpRVVq4kno7zzvH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         badges:
           - "Unreal Engine"
           - "Blueprints"
