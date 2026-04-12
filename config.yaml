@@ -117,7 +117,7 @@ params:
     subtitle: "I make games"
     content: "Web developer by trade, game developer by passion, human being by coffee."
     image: "/images/profile_pic_square.png"
-    background: "/images/webb.png"
+    background: "/images/artemis.jpg"
     button:
       enable: true
       name: "Resume"
